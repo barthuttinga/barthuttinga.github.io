@@ -1,0 +1,8 @@
+exclude:
+  - bower_components/bootstrap/js
+  - bower_components/bootstrap/less
+  - bower_components/jquery/test
+  - bower_components/jquery/speed
+
+gems:
+  - jekyll-sitemap
