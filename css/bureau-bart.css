@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+body {
+    background-color: #FDC610;
+}
+
+header .container {
+    background-color: #12856D;
+    border-color: #12856D;
+}
+
+footer .container {
+    background-color: #5D8083;
+}
+
+strong,
+h1 .small,
+h3 {
+    color: #E85524; /* orange */
+}
+
+h2 {
+    color: #12856D; /* turquoise*/
+}
+
+.navbar {
+    margin-bottom: 2px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.row.odd {
+    background-color: white;
+}
+
+.row.even {
+    background-color: #FCFBEC; /* off-white */
+}
+
+#logo {
+    margin-left: .5em;
+    margin-bottom: .5em;
+}
