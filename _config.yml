@@ -1,3 +1,8 @@
+collections:
+  projects:
+    output: true
+    permalink: /project/:path/
+
 exclude:
   - bower_components/bootstrap/js
   - bower_components/bootstrap/less

@@ -9,8 +9,13 @@ header .container {
     border-color: #12856D;
 }
 
-footer .container {
-    background-color: #5D8083;
+header .container .logo {
+    background-color: #FDC610;
+}
+
+footer .container .row {
+    background-color: #bfbfbf;
+    padding: 1em;
 }
 
 strong,
@@ -37,11 +42,7 @@ h2 {
     text-transform: uppercase;
 }
 
-.row.odd {
-    background-color: white;
-}
-
-.row.even {
+.container .row {
     background-color: #FCFBEC; /* off-white */
 }
 
