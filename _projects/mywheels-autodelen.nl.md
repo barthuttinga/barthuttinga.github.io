@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: MyWheels
 date: 2014-05-01
 categories: ["Milieu & Duurzaamheid", "Deeleconomie"]

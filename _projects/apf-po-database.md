@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: AgriProFocus
 date: 2008-10-01
 categories: ["Welzijn"]

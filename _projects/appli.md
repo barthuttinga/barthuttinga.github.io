@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Appli
 date: 2016-04-01
 categories: ["Onderwijs"]
