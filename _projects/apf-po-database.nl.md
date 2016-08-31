@@ -1,21 +1,36 @@
 ---
-layout: default
+layout: home
 title: AgriProFocus
 date: 2008-10-01
+categories: ["Welzijn"]
 logo:
     title: AgriProFocus
     url: /img/logo-apf.jpg
     alt: Logo AgriProFocus
-categories: ["Milieu & Duurzaamheid"]
 summary: AgriProFocus is een netwerk van Nederlandse ontwikkelingsorganisaties
     die steun bieden aan producentenorganisaties van kleine boeren in ontwikkelingslanden.
     Om de steun en financiering onderling beter af te stemmen ontwikkelde
-    AgriProFocus een database met daarin de details van alle lopende projecten.
-    In de opstartfase was ik betrokken bij het ontwerp van dit web-based systeem.
+    AgriProFocus een database met details over alle lopende projecten.
+me: In de opstartfase was ik betrokken bij het ontwerp van dit web-based systeem.
     Daarna was ik verantwoordelijk voor het verzamelen van de data bij de individuele
     ontwikkelingsorganisaties uit het AgriProFocus-netwerk.
 ---
-![{{ page.logo.alt }}]({{ page.logo.url }} "{{ page.logo.title }}")
-
-# {{ page.title }}
-{{ page.summary }}
+<div class="row">
+    <div class="col-xs-12">
+        <h2>{{ page.title }}</h2>
+        <img src="{{ page.logo.url }}" title="{{ page.logo.title }}" alt="{{ page.logo.alt }}" class="img-responsive pull-right">
+        <p>{{ page.summary }}</p>
+        <p>{{ page.me }}</p>
+        <ul class="list-inline">
+        {% for technique in site.techniques %}
+            {% if page.techniques contains technique.title %}
+                <li>
+                    <a href="{{ technique.url }}">
+                        <span class="label label-default">{{ technique.title }}</span>
+                    </a>
+                </li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
+</div>
