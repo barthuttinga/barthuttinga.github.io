@@ -7,7 +7,13 @@ logo:
     url: /img/logo-apf.jpg
     alt: Logo AgriProFocus
 categories: ["Milieu & Duurzaamheid"]
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel velit diam. Nunc accumsan, urna in ornare cursus, quam risus dapibus erat, vel efficitur felis magna molestie orci. Pellentesque risus arcu, malesuada ac odio et, tincidunt mattis est. Etiam justo ligula, pulvinar eu convallis eu, semper vitae velit. Nullam at cursus felis. Fusce eget vestibulum turpis, quis pellentesque est. Nunc in volutpat est. Fusce laoreet, mi in suscipit semper, turpis nisl condimentum lorem, quis facilisis erat urna et augue. Vestibulum cursus vestibulum purus, in mattis quam elementum non. Pellentesque lacinia sagittis orci, eget ultricies odio. Ut vitae iaculis felis. Suspendisse potenti. Morbi facilisis ex in dolor accumsan pellentesque. Suspendisse eu elit metus. Nunc tincidunt tortor a nunc vulputate, id commodo magna porta.
+summary: AgriProFocus is een netwerk van Nederlandse ontwikkelingsorganisaties
+    die steun bieden aan producentenorganisaties van kleine boeren in ontwikkelingslanden.
+    Om de steun en financiering onderling beter af te stemmen ontwikkelde
+    AgriProFocus een database met daarin de details van alle lopende projecten.
+    In de opstartfase was ik betrokken bij het ontwerp van dit web-based systeem.
+    Daarna was ik verantwoordelijk voor het verzamelen van de data bij de individuele
+    ontwikkelingsorganisaties uit het AgriProFocus-netwerk.
 ---
 ![{{ page.logo.alt }}]({{ page.logo.url }} "{{ page.logo.title }}")
 
