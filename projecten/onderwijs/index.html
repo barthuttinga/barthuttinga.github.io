@@ -6,26 +6,26 @@ category: Onderwijs
 <div class="row" >
     <div class="col-xs-12">
         <h2>{{ page.title }}</h2>
-			{% for project in site.projects reversed %}
-				{% if project.categories contains page.category %}
-					<div class="col-sm-6 col-md-4">
-						<div class="thumbnail">
-						<a href="#">
-							<img src="{{ project.logo.url }}" title="{{ project.logo.title }}" alt="{{ project.logo.alt }}" class="img-responsive">
-							</a>
-						</div>
-						<div class="caption">
-							<h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
-							<p>{{ project.summary }}</p>
-							<ul class="list-inline">
-							{% for technique in project.techniques %}
-							    <li><span class="label label-default">{{ technique }}</span></li>
-							{% endfor %}
-						</ul>
-			            <p><a href="{{ project.url }}" class="btn btn-primary" role="button">Meer...</a></p>
-			        </div>
-			    </div>
-			{% endif %}
-		{% endfor %}
+            {% for project in site.projects reversed %}
+                {% if project.categories contains page.category %}
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                        <a href="#">
+                            <img src="{{ project.logo.url }}" title="{{ project.logo.title }}" alt="{{ project.logo.alt }}" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="caption">
+                            <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+                            <p>{{ project.summary }}</p>
+                            <ul class="list-inline">
+                            {% for technique in project.techniques %}
+                                <li><span class="label label-default">{{ technique }}</span></li>
+                            {% endfor %}
+                        </ul>
+                        <p><a href="{{ project.url }}" class="btn btn-primary" role="button">Meer...</a></p>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
     </div>
 </div>
