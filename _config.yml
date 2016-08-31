@@ -1,7 +1,7 @@
 collections:
   projects:
     output: true
-    permalink: /project/:path/
+    permalink: /projecten/:path/
   techniques:
     output: true
     permalink: /technieken/:path/
