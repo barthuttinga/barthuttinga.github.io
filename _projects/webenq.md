@@ -3,7 +3,7 @@ layout: default
 title: WebEnq
 date: 2010-01-01
 categories: ["Milieu & Duurzaamheid"]
-techniques: ["PHP", "Zend Framework", "Doctrine", "Git", "Github"]
+techniques: ["PHP", "Zend Framework", "Doctrine ORM", "Git", "Github"]
 logo:
     url: /img/logo-nivocer.png
     title: Nivocer's WebEnq

@@ -4,18 +4,18 @@ title: MyWheels
 date: 2014-05-01
 categories: ["Milieu & Duurzaamheid", "Deeleconomie"]
 techniques:
-	- "PHP"
-	- "Symfony"
-	- "Doctrine ORM"
+    - "PHP"
+    - "Symfony"
+    - "Doctrine ORM"
     - "PHPUnit"
     - "PHP Codestyle Fixer"
     - "PostgreSQL"
     - "MySQL"
     - "SQLite"
-	- "Composer"
-	- "Git"
-	- "Jira"
-	- "Github"
+    - "Composer"
+    - "Git"
+    - "Jira"
+    - "Github"
 logo:
     url: /img/logo-mywheels.png
     title: MyWheels
