@@ -9,9 +9,9 @@ category: Milieu &apm; Duurzaamheid
         {% for project in site.projects reversed %}
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                <a href="#">
+                <a href="{{ project.url }}">
                     <img src="{{ project.logo.url }}" title="{{ project.logo.title }}" alt="{{ project.logo.alt }}" class="img-responsive">
-                    </a>
+                </a>
                 </div>
                 <div class="caption">
                     <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
