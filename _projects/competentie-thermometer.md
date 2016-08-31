@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: Competentie Thermometer
 date: 2013-01-01
 categories: ["Onderwijs"]
@@ -10,6 +10,3 @@ logo:
     alt: Logo Competentie Thermometer
 summary:
 ---
-![Logo Competentie Thermometer](/img/logo-competentie-thermometer.svg "Competentie Thermometer")
-
-# {{ page.title }}

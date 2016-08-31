@@ -15,22 +15,3 @@ summary: Voor De Regenboog Groep begeleid ik de ontwikkeling van een elektronisc
     Daarvoor ben ik voortdurend in gesprek met zowel de eindgebruikers binnen de organisatie
     als de programmeurs van een extern software-bureau.
 ---
-<div class="row odd">
-    <ol class="breadcrumb">
-        <li><a href="/">Home</a></li>
-        <li><a href="/projecten/">Projecten</a></li>
-        <li class="active">{{ page.title }}</li>
-    </ol>
-    <div class="col-xs-12">
-        <img class="img-responsive pull-right" src="{{ page.logo.url }}"/>
-        <h1>{{ page.title }}</h1>
-    <strong>{{ page.summary }}</strong>
-    <ul>
-    {% for technique in site.techniques %}
-        {% if page.techniques contains technique.title %}
-            <li><a href="{{ technique.url }}">{{ technique.title }}</a></li>
-        {% endif %}
-    {% endfor %}
-    </ul>
-    </div>
-</div>

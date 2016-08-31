@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: duurzaamheidsverslag.nl
 date: 2015-03-01
 categories: ["Milieu & Duurzaamheid"]
@@ -10,4 +10,3 @@ logo:
     alt: Logo duurzaamheidsverslag.nl
 summary: Datamigratie voor sustainability-reports.com van custom CMS naar WordPress
 ---
-# {{ page.title }}

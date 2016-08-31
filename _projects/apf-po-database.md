@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: AgriProFocus
 date: 2008-10-01
 categories: ["Welzijn"]
@@ -15,22 +15,3 @@ me: In de opstartfase was ik betrokken bij het ontwerp van dit web-based systeem
     Daarna was ik verantwoordelijk voor het verzamelen van de data bij de individuele
     ontwikkelingsorganisaties uit het AgriProFocus-netwerk.
 ---
-<div class="row">
-    <div class="col-xs-12">
-        <h2>{{ page.title }}</h2>
-        <img src="{{ page.logo.url }}" title="{{ page.logo.title }}" alt="{{ page.logo.alt }}" class="img-responsive pull-right">
-        <p>{{ page.summary }}</p>
-        <p>{{ page.me }}</p>
-        <ul class="list-inline">
-        {% for technique in site.techniques %}
-            {% if page.techniques contains technique.title %}
-                <li>
-                    <a href="{{ technique.url }}">
-                        <span class="label label-default">{{ technique.title }}</span>
-                    </a>
-                </li>
-            {% endif %}
-        {% endfor %}
-        </ul>
-    </div>
-</div>

@@ -22,7 +22,27 @@
     </head>
     <body>
         {% include header.html %}
-        <div class="container">{{ page.content }}</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>{{ page.title }}</h2>
+                    <img src="{{ page.logo.url }}" title="{{ page.logo.title }}" alt="{{ page.logo.alt }}" class="img-responsive pull-right">
+                    <p><strong>{{ page.summary }}</strong></p>
+                    <p>{{ page.me }}</p>
+                    <ul class="list-inline">
+                    {% for technique in site.techniques %}
+                        {% if page.techniques contains technique.title %}
+                            <li>
+                                <a href="{{ technique.url }}">
+                                    <span class="label label-default">{{ technique.title }}</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
         {% include footer.html %}
     </body>
 </html>

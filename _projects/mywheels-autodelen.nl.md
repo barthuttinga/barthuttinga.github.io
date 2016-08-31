@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: MyWheels
 date: 2014-05-01
 categories: ["Milieu & Duurzaamheid", "Deeleconomie"]
@@ -28,25 +28,5 @@ summary: MyWheels is een not-for-profit platform voor autodelen dat als ideaal
     een duurzaam alternatief kiezen.
 me: Voor MyWheels maakte ik deel uit van een klein team van software-ontwikkelaars.
     Ik werkte mee aan de backend, de motor achter dit online platform. Ik bouwde
-    ondermeer modules voor facturatie, betaling, kortings- en tegoedbonnen, koppelingen
-    met
+    ondermeer modules voor facturatie, betaling en kortings- en tegoedbonnen.
 ---
-<div class="row">
-    <div class="col-xs-12">
-        <h2>{{ page.title }}</h2>
-        <img src="{{ page.logo.url }}" title="{{ page.logo.title }}" alt="{{ page.logo.alt }}" class="img-responsive pull-right">
-        <p>{{ page.summary }}</p>
-        <p>{{ page.me }}</p>
-        <ul class="list-inline">
-        {% for technique in site.techniques %}
-            {% if page.techniques contains technique.title %}
-                <li>
-                    <a href="{{ technique.url }}">
-                        <span class="label label-default">{{ technique.title }}</span>
-                    </a>
-                </li>
-            {% endif %}
-        {% endfor %}
-        </ul>
-    </div>
-</div>

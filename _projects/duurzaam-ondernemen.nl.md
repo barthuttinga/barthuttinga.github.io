@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: duurzaam-ondernemen.nl
 date: 2013-07-01
 categories: ["Milieu & Duurzaamheid"]
@@ -10,4 +10,3 @@ logo:
     alt: Logo duurzaam-ondernemen.nl
 summary: Datamigratie voor duurzaam-ondernemen.nl van custom CMS naar WordPress
 ---
-# {{ page.title }}

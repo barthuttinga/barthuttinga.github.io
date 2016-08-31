@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: SBO Luc Stevensschool - Ontwikkelingsperspectief
 date: 2011-06-01
 categories: ["Onderwijs"]
@@ -9,4 +9,3 @@ logo:
     alt: Logo SBO Herderschêeschool
 summary:
 ---
-# {{ page.title }}

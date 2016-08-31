@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: SBO Herderschêeschool - Ontwikkelingsperspectief
 date: 2015-10-01
 categories: ["Onderwijs"]
@@ -9,4 +9,3 @@ logo:
     alt: Logo SBO Herderschêeschool
 summary:
 ---
-# {{ page.title }}
