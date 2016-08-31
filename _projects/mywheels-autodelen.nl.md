@@ -1,6 +1,6 @@
 ---
+layout: home
 title: MyWheels
-layout: default
 date: 2014-05-01
 categories: ["Milieu & Duurzaamheid", "Deeleconomie"]
 techniques: ["PHP", "Symfony", "Doctrine", "PHPUnit", "PostgreSQL", "SQLite", "Redis", "Composer", "Git", "Jira", "Github"]
@@ -8,6 +8,33 @@ logo:
     url: /img/logo-mywheels.png
     title: MyWheels
     alt: Logo MyWheels
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel velit diam. Nunc accumsan, urna in ornare cursus, quam risus dapibus erat, vel efficitur felis magna molestie orci. Pellentesque risus arcu, malesuada ac odio et, tincidunt mattis est. Etiam justo ligula, pulvinar eu convallis eu, semper vitae velit. Nullam at cursus felis. Fusce eget vestibulum turpis, quis pellentesque est. Nunc in volutpat est. Fusce laoreet, mi in suscipit semper, turpis nisl condimentum lorem, quis facilisis erat urna et augue. Vestibulum cursus vestibulum purus, in mattis quam elementum non. Pellentesque lacinia sagittis orci, eget ultricies odio. Ut vitae iaculis felis. Suspendisse potenti. Morbi facilisis ex in dolor accumsan pellentesque. Suspendisse eu elit metus. Nunc tincidunt tortor a nunc vulputate, id commodo magna porta.
+summary: MyWheels is een not-for-profit platform voor autodelen dat als ideaal
+    heeft om mensen een bewuste keuze te laten maken voor elke autorit.
+    Soms is een auto de beste optie om van A naar B te komen, maar vaak is
+    een (OV-)fiets of de trein een beter alternatief. Met autodelen worden
+    autokosten variabel - je betaalt alleen als je rijdt - en kun je vaker voor
+    een duurzaam alternatief kiezen.
+me: Voor MyWheels maakte ik deel uit van een klein team van software-ontwikkelaars.
+    Ik werkte mee aan de backend, de motor achter dit online platform. Ik bouwde
+    ondermeer modules voor facturatie, betaling, kortings- en tegoedbonnen, koppelingen
+    met
 ---
-# {{ page.title }}
+<div class="row">
+    <div class="col-xs-12">
+        <h2>{{ page.title }}</h2>
+        <img src="{{ page.logo.url }}" title="{{ page.logo.title }}" alt="{{ page.logo.alt }}" class="img-responsive pull-right">
+        <p>{{ page.summary }}</p>
+        <p>{{ page.me }}</p>
+        <ul class="list-inline">
+        {% for technique in site.techniques %}
+            {% if page.techniques contains technique.title %}
+                <li>
+                    <a href="{{ technique.url }}">
+                        <span class="label label-default">{{ technique.title }}</span>
+                    </a>
+                </li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
+</div>
