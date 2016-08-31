@@ -2,6 +2,9 @@ collections:
   projects:
     output: true
     permalink: /project/:path/
+  techniques:
+    output: true
+    permalink: /technieken/:path/
 
 exclude:
   - bower_components/bootstrap/js
