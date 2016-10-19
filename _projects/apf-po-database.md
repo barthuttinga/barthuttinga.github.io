@@ -3,10 +3,7 @@ layout: project
 title: AgriProFocus
 date: 2008-10-01
 categories: ["Welzijn"]
-logo:
-    title: AgriProFocus
-    url: /img/logo-apf.jpg
-    alt: Logo AgriProFocus
+logo: /img/logo-apf.jpg
 summary: AgriProFocus is een netwerk van Nederlandse ontwikkelingsorganisaties
     die steun bieden aan producentenorganisaties van kleine boeren in ontwikkelingslanden.
     Om de steun en financiering onderling beter af te stemmen ontwikkelde

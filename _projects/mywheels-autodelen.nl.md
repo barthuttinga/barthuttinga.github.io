@@ -16,10 +16,8 @@ techniques:
     - "Git"
     - "Jira"
     - "Github"
-logo:
-    url: /img/logo-mywheels.png
-    title: MyWheels
-    alt: Logo MyWheels
+    - "Open source"
+logo: /img/logo-mywheels.png
 summary: MyWheels is een not-for-profit platform voor autodelen dat als ideaal
     heeft om mensen een bewuste keuze te laten maken voor elke autorit.
     Soms is een auto de beste optie om van A naar B te komen, maar vaak is

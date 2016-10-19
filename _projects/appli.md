@@ -17,10 +17,7 @@ techniques:
     - "Git"
     - "Jira"
     - "Bitbucket"
-logo:
-    url: /img/logo-appli.png
-    title: Appli
-    alt: Logo Appli
+logo: /img/logo-appli.png
 summary: Appli is een app (voor iOS en Android) om studenten en stageplekken te
     matchen. Op een Tinder-achtige manier (swipen, liken en super-liken) worden
     bedrijven met stage-vacatures gekoppeld aan studenten die op zoek zijn naar
