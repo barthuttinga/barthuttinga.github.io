@@ -19,25 +19,25 @@
                     {% else %}
                         <li><a href="/">Home</a></li>
                     {% endif %}
-                    {% if page.url contains "projecten" %}
-                        <li class="active"><a href="/projecten/">Projecten <span class="sr-only">(current)</span></a></li>
-                    {% else %}
-                        <li><a href="/projecten/">Projecten</a></li>
-                    {% endif %}
                     {% if page.title == "Diensten" %}
-                        <li class="active"><a href="/diensten/">Diensten <span class="sr-only">(current)</span></a></li>
+                        <li class="active"><a href="/diensten.html">Diensten <span class="sr-only">(current)</span></a></li>
                     {% else %}
-                        <li><a href="/diensten/">Diensten</a></li>
+                        <li><a href="/diensten.html">Diensten</a></li>
                     {% endif %}
                     {% if page.title == "Sectoren" %}
-                        <li class="active"><a href="/sectoren/">Sectoren <span class="sr-only">(current)</span></a></li>
+                        <li class="active"><a href="/sectoren.html">Sectoren <span class="sr-only">(current)</span></a></li>
                     {% else %}
-                        <li><a href="/sectoren/">Sectoren</a></li>
+                        <li><a href="/sectoren.html">Sectoren</a></li>
+                    {% endif %}
+                    {% if page.url contains "projecten" %}
+                        <li class="active"><a href="/projecten.html">Projecten <span class="sr-only">(current)</span></a></li>
+                    {% else %}
+                        <li><a href="/projecten.html">Projecten</a></li>
                     {% endif %}
                     {% if page.title == "Contact" %}
-                        <li class="active"><a href="/contact/">Contact <span class="sr-only">(current)</span></a></li>
+                        <li class="active"><a href="/contact.html">Contact <span class="sr-only">(current)</span></a></li>
                     {% else %}
-                        <li><a href="/contact/">Contact</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
                     {% endif %}
                 </ul>
             </div><!-- /.navbar-collapse -->
